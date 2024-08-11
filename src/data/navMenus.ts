@@ -12,37 +12,37 @@ const navMenus: INavMenuItem[] = [
   {
     id: "about",
     title: "About",
-    path: "/#about",
+    path: "#about",
     section: "about",
   },
   {
     id: "services",
     title: "Services",
-    path: "/#services",
+    path: "#services",
     section: "services",
   },
   {
     id: "experiences",
     title: "Experiences",
-    path: "/#experiences",
+    path: "#experiences",
     section: "experiences",
   },
   {
     id: "skills",
     title: "Skills",
-    path: "/#skills",
+    path: "#skills",
     section: "skills",
   },
   {
     id: "projects",
     title: "Projects",
-    path: "/#projects",
+    path: "#projects",
     section: "projects",
   },
   {
     id: "contact",
     title: "Contact",
-    path: "/#contact",
+    path: "#contact",
     section: "contact",
   },
 ];
@@ -52,32 +52,32 @@ export default navMenus;
 export const menuItems: INavItem[] = [
   {
     name: "About",
-    link: "/#about",
+    link: "#about",
     icon: faUser,
   },
   {
     name: "Services",
-    link: "/#services",
+    link: "#services",
     icon: faBriefcase,
   },
   {
     name: "Experiences",
-    link: "/#experiences",
+    link: "#experiences",
     icon: faTimeline,
   },
   {
     name: "Skills",
-    link: "/#skills",
+    link: "#skills",
     icon: faAward,
   },
   {
     name: "Projects",
-    link: "/#projects",
+    link: "#projects",
     icon: faLaptopCode,
   },
   {
     name: "Contact",
-    link: "/#contact",
+    link: "#contact",
     icon: faEnvelope,
   },
 ];
