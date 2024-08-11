@@ -7,42 +7,43 @@ import {
   faLaptopCode,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import { getFullPath } from "@/utils/getFullPath";
 
 const navMenus: INavMenuItem[] = [
   {
     id: "about",
     title: "About",
-    path: "/#about",
+    path: getFullPath("/#about"),
     section: "about",
   },
   {
     id: "services",
     title: "Services",
-    path: "/#services",
+    path: getFullPath("/#services"),
     section: "services",
   },
   {
     id: "experiences",
     title: "Experiences",
-    path: "/#experiences",
+    path: getFullPath("/#experiences"),
     section: "experiences",
   },
   {
     id: "skills",
     title: "Skills",
-    path: "/#skills",
+    path: getFullPath("/#skills"),
     section: "skills",
   },
   {
     id: "projects",
     title: "Projects",
-    path: "/#projects",
+    path: getFullPath("/#projects"),
     section: "projects",
   },
   {
     id: "contact",
     title: "Contact",
-    path: "/#contact",
+    path: getFullPath("/#contact"),
     section: "contact",
   },
 ];
@@ -52,32 +53,32 @@ export default navMenus;
 export const menuItems: INavItem[] = [
   {
     name: "About",
-    link: "/#about",
+    link: getFullPath("/#about"),
     icon: faUser,
   },
   {
     name: "Services",
-    link: "/#services",
+    link: getFullPath("/#services"),
     icon: faBriefcase,
   },
   {
     name: "Experiences",
-    link: "/#experiences",
+    link: getFullPath("/#experiences"),
     icon: faTimeline,
   },
   {
     name: "Skills",
-    link: "/#skills",
+    link: getFullPath("/#skills"),
     icon: faAward,
   },
   {
     name: "Projects",
-    link: "/#projects",
+    link: getFullPath("/#projects"),
     icon: faLaptopCode,
   },
   {
     name: "Contact",
-    link: "/#contact",
+    link: getFullPath("/#contact"),
     icon: faEnvelope,
   },
 ];

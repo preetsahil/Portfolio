@@ -1,15 +1,16 @@
 import { IServiceItem } from "@/types";
+import { getImagePath } from "@/utils/getImagePath";
 
 const services: IServiceItem[] = [
   {
     id: 1,
     title: "Web Development",
     icons: [
-      "/skills/redux.svg",
-      "/skills/react.svg",
-      "/skills/nextjs.png",
-      "/skills/html.svg",
-      "/skills/css.svg",
+      getImagePath("/skills/redux.svg"),
+      getImagePath("/skills/react.svg"),
+      getImagePath("/skills/nextjs.png"),
+      getImagePath("/skills/html.svg"),
+      getImagePath("/skills/css.svg"),
     ],
     shortDescription: "I build visually stunning and user-friendly websites.",
     description:
@@ -19,11 +20,11 @@ const services: IServiceItem[] = [
     id: 2,
     title: "Backend Development",
     icons: [
-      "/skills/socket-io.png",
-      "/skills/docker.png",
-      "/skills/nodejs.svg",
-      "/skills/express.svg",
-      "/skills/aws.svg",
+      getImagePath("/skills/socket-io.png"),
+      getImagePath("/skills/docker.png"),
+      getImagePath("/skills/nodejs.svg"),
+      getImagePath("/skills/express.svg"),
+      getImagePath("/skills/aws.svg"),
     ],
     shortDescription: "I create robust and scalable backend infrastructures.",
     description:
@@ -33,11 +34,11 @@ const services: IServiceItem[] = [
     id: 3,
     title: "Database Management",
     icons: [
-      "/skills/mysql.svg",
-      "/skills/postgresql.svg",
-      "/skills/mongodb.svg",
-      "/skills/redis.svg",
-      "/skills/sqlite.svg",
+      getImagePath("/skills/mysql.svg"),
+      getImagePath("/skills/postgresql.svg"),
+      getImagePath("/skills/mongodb.svg"),
+      getImagePath("/skills/redis.svg"),
+      getImagePath("/skills/sqlite.svg"),
     ],
     shortDescription: "I manage and optimize your database systems.",
     description:

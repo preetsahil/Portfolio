@@ -1,4 +1,5 @@
 import { IProjectItem, ProjectType, RepoType } from "@/types";
+import { getImagePath } from "@/utils/getImagePath";
 
 const projects: IProjectItem[] = [
   {
@@ -6,7 +7,7 @@ const projects: IProjectItem[] = [
     title: "Posterz.",
     description:
       "An e-commerce web application developed using MERN Stack, OAuth2.0, Redux, and Razorpay.",
-    icon: "/skills/react.svg",
+    icon: getImagePath("/skills/react.svg"),
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/preetsahil/Posterz",
@@ -29,7 +30,7 @@ const projects: IProjectItem[] = [
     title: "FriendZy",
     description:
       "A social media web application developed using MERN Stack, ReduxToolkit, JWT and Cloudinary.",
-    icon: "/skills/react.svg",
+    icon: getImagePath("/skills/react.svg"),
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/preetsahil/FriendZy",
@@ -50,7 +51,7 @@ const projects: IProjectItem[] = [
     title: "VideoChat App",
     description:
       "A video chat application developed using ReactJs, WebRTC and socket.io that allows users to call each other face to face.",
-    icon: "/skills/socket-io.png",
+    icon: getImagePath("/skills/socket-io.png"),
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
     githubUrl: "https://github.com/preetsahil/VideoChat-APP",
