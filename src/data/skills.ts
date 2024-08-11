@@ -1,5 +1,5 @@
 import { ISkillListItem, SkillLevel } from "@/types";
-
+import { getImagePath } from "@/utils/getImagePath";
 const skills: ISkillListItem[] = [
   {
     title: "Programming Languages",
@@ -7,17 +7,17 @@ const skills: ISkillListItem[] = [
       {
         title: "JavaScript",
         level: SkillLevel.Expert,
-        icon: "/skills/javascript.svg",
+        icon: getImagePath("/skills/javascript.svg"),
       },
       {
         title: "TypeScript",
         level: SkillLevel.Intermediate,
-        icon: "/skills/typescript.svg",
+        icon: getImagePath("/skills/typescript.svg"),
       },
       {
         title: "CPP",
         level: SkillLevel.Expert,
-        icon: "/skills/c.svg",
+        icon: getImagePath("/skills/c.svg"),
       },
     ],
   },
@@ -27,32 +27,32 @@ const skills: ISkillListItem[] = [
       {
         title: "Next.js",
         level: SkillLevel.Expert,
-        icon: "/skills/nextjs.png",
+        icon: getImagePath("/skills/nextjs.png"),
       },
       {
         title: "React.js",
         level: SkillLevel.Expert,
-        icon: "/skills/react.svg",
+        icon: getImagePath("/skills/react.svg"),
       },
       {
         title: "HTML",
         level: SkillLevel.Expert,
-        icon: "/skills/html.svg",
+        icon: getImagePath("/skills/html.svg"),
       },
       {
         title: "CSS",
         level: SkillLevel.Intermediate,
-        icon: "/skills/css.svg",
+        icon: getImagePath("/skills/css.svg"),
       },
       {
         title: "SASS",
         level: SkillLevel.Intermediate,
-        icon: "/skills/sass.svg",
+        icon: getImagePath("/skills/sass.svg"),
       },
       {
         title: "Redux Toolkit",
         level: SkillLevel.Expert,
-        icon: "/skills/redux.svg",
+        icon: getImagePath("/skills/redux.svg"),
       },
     ],
   },
@@ -62,17 +62,17 @@ const skills: ISkillListItem[] = [
       {
         title: "Node.js",
         level: SkillLevel.Expert,
-        icon: "/skills/nodejs.svg",
+        icon: getImagePath("/skills/nodejs.svg"),
       },
       {
         title: "Express.js",
         level: SkillLevel.Expert,
-        icon: "/skills/express.svg",
+        icon: getImagePath("/skills/express.svg"),
       },
       {
         title: "Socket.io",
         level: SkillLevel.Intermediate,
-        icon: "/skills/socket-io.png",
+        icon: getImagePath("/skills/socket-io.png"),
       },
     ],
   },
@@ -82,17 +82,17 @@ const skills: ISkillListItem[] = [
       {
         title: "MongoDB",
         level: SkillLevel.Intermediate,
-        icon: "/skills/mongodb.svg",
+        icon: getImagePath("/skills/mongodb.svg"),
       },
       {
         title: "PostgreSQL",
         level: SkillLevel.Intermediate,
-        icon: "/skills/postgresql.svg",
+        icon: getImagePath("/skills/postgresql.svg"),
       },
       {
         title: "MySQL",
         level: SkillLevel.Begginer,
-        icon: "/skills/mysql.svg",
+        icon: getImagePath("/skills/mysql.svg"),
       },
     ],
   },
@@ -102,27 +102,27 @@ const skills: ISkillListItem[] = [
       {
         title: "Docker",
         level: SkillLevel.Begginer,
-        icon: "/skills/docker.png",
+        icon: getImagePath("/skills/docker.png"),
       },
       {
         title: "AWS",
         level: SkillLevel.Begginer,
-        icon: "/skills/aws.svg",
+        icon: getImagePath("/skills/aws.svg"),
       },
       {
         title: "Git",
         level: SkillLevel.Expert,
-        icon: "/skills/git.svg",
+        icon: getImagePath("/skills/git.svg"),
       },
       {
         title: "GitHub",
         level: SkillLevel.Expert,
-        icon: "/skills/github.svg",
+        icon: getImagePath("/skills/github.svg"),
       },
       {
         title: "Ubuntu",
         level: SkillLevel.Intermediate,
-        icon: "/skills/ubuntu.png",
+        icon: getImagePath("/skills/ubuntu.png"),
       },
     ],
   },
@@ -132,17 +132,17 @@ const skills: ISkillListItem[] = [
       {
         title: "Problem Solving",
         level: SkillLevel.Expert,
-        icon: "/images/logical-thinking.png",
+        icon: getImagePath("/images/logical-thinking.png"),
       },
       {
         title: "Collaboration",
         level: SkillLevel.Expert,
-        icon: "/images/collaboration.png",
+        icon: getImagePath("/images/collaboration.png"),
       },
       {
         title: "Analytical Skills",
         level: SkillLevel.Expert,
-        icon: "/images/analytical-skills.png",
+        icon: getImagePath("/images/analytical-skills.png"),
       },
     ],
   },
